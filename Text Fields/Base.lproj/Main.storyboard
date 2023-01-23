@@ -7,11 +7,6 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Rubik-Regular.ttf">
-            <string>Rubik-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -20,93 +15,13 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text Fields" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z03-zB-7wQ">
-                                <rect key="frame" x="20" y="142" width="374" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="A0b-pD-1dw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="34"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type here " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WgV-FV-Ae7">
-                                <rect key="frame" x="20" y="237" width="374" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WBP-Ks-xos">
-                                <rect key="frame" x="20" y="319" width="374" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="wwwww-ddddd" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cw4-d6-bQp">
-                                <rect key="frame" x="20" y="407" width="374" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="www.example.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tuG-Gz-qF2">
-                                <rect key="frame" x="20" y="495" width="374" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cwo-E4-Xtl">
-                                <rect key="frame" x="20" y="583" width="374" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iox-KV-NGg">
-                                <rect key="frame" x="363" y="289" width="25" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8o-I4-J4m">
-                                <rect key="frame" x="20" y="662" width="156" height="62"/>
-                                <string key="text">- Min length 8 characters
-- Min 1 digit 
-- Min lowercase
-- Min 1 capital required</string>
-                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="WgV-FV-Ae7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="65v-i1-Zju"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z03-zB-7wQ" secondAttribute="trailing" constant="20" id="714-VZ-ZY5"/>
-                            <constraint firstItem="z03-zB-7wQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7l9-x5-C1K"/>
-                            <constraint firstItem="u8o-I4-J4m" firstAttribute="top" secondItem="cwo-E4-Xtl" secondAttribute="bottom" constant="45" id="7yD-He-kym"/>
-                            <constraint firstItem="u8o-I4-J4m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Aig-ig-dVa"/>
-                            <constraint firstItem="Iox-KV-NGg" firstAttribute="top" secondItem="WgV-FV-Ae7" secondAttribute="bottom" constant="18" id="C25-es-Sj7"/>
-                            <constraint firstItem="WBP-Ks-xos" firstAttribute="top" secondItem="WgV-FV-Ae7" secondAttribute="bottom" constant="48" id="Mcr-bG-dki"/>
-                            <constraint firstItem="WgV-FV-Ae7" firstAttribute="top" secondItem="z03-zB-7wQ" secondAttribute="bottom" constant="54" id="NPR-oo-i2T"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WBP-Ks-xos" secondAttribute="trailing" constant="20" id="OgL-ji-2yh"/>
-                            <constraint firstItem="WBP-Ks-xos" firstAttribute="top" secondItem="Iox-KV-NGg" secondAttribute="bottom" constant="8" symbolic="YES" id="R6K-Wh-hVR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WgV-FV-Ae7" secondAttribute="trailing" constant="20" id="RtE-6D-pne"/>
-                            <constraint firstItem="z03-zB-7wQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="T0f-IW-geY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tuG-Gz-qF2" secondAttribute="trailing" constant="20" id="T6M-UC-lST"/>
-                            <constraint firstItem="WBP-Ks-xos" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TvZ-qJ-8bH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iox-KV-NGg" secondAttribute="trailing" constant="26" id="Z5P-WI-dOO"/>
-                            <constraint firstItem="cwo-E4-Xtl" firstAttribute="top" secondItem="tuG-Gz-qF2" secondAttribute="bottom" constant="54" id="Z6X-Uq-qCn"/>
-                            <constraint firstItem="cwo-E4-Xtl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bD2-Fx-uFL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="u8o-I4-J4m" secondAttribute="bottom" constant="138" id="dHf-zZ-VS1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cw4-d6-bQp" secondAttribute="trailing" constant="20" id="dhW-Sc-GBJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cwo-E4-Xtl" secondAttribute="trailing" constant="20" id="gU0-9h-5Ws"/>
-                            <constraint firstItem="Iox-KV-NGg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="363" id="hsG-ms-QTC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="u8o-I4-J4m" secondAttribute="trailing" constant="238" id="oMR-i5-yBG"/>
-                            <constraint firstItem="Cw4-d6-bQp" firstAttribute="top" secondItem="WBP-Ks-xos" secondAttribute="bottom" constant="54" id="pXw-hf-ZGk"/>
-                            <constraint firstItem="tuG-Gz-qF2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qEJ-eP-jBw"/>
-                            <constraint firstItem="Cw4-d6-bQp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rbl-un-dkk"/>
-                            <constraint firstItem="tuG-Gz-qF2" firstAttribute="top" secondItem="Cw4-d6-bQp" secondAttribute="bottom" constant="54" id="t8U-xf-OTF"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-105.79710144927537" y="-29.464285714285712"/>
+            <point key="canvasLocation" x="234.78260869565219" y="-295.3125"/>
         </scene>
     </scenes>
     <resources>
